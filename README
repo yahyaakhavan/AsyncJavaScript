@@ -1,0 +1,1 @@
+This project demonstrates how to use Axios (via CDN) and asynchronous JavaScript to send a request to a local JSON database and handle the response. In this example, we'll be using a simple HTML page along with JavaScript to showcase the functionality.
