@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسک دوره جاوااسکریپت</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>لیست تراکنش ها</h1>
+        <span class="searchfield"
+          ><span class="serachfield__icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg> </span
+          ><input id="serchtran" type="text" placeholder="جستجوی تراکنش ..."
+        /></span>
+      </div>
+      <button class="gettarns">بارگذاری تراکنش ها</button>
+      <div class="table-container">
+        <h2>لیست تراکنش های شما</h2>
+        <div class="table">
+          <div class="table-column__header">
+            <div>ردیف</div>
+            <div>نوع تراکنش</div>
+            <div class="header_price">
+              <span class="header-chevron_price"
+                ><svg
+                  class="chevron_price"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg> </span
+              ><span class="header-price_text">مبلغ</span>
+            </div>
+            <div>شماره پیگیری</div>
+            <div class="header_date">
+              <span class="header-chevron_date"
+                ><svg
+                  class="chevron_date"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg> </span
+              ><span class="header-date_text">تاریخ تراکنش</span>
+            </div>
+          </div>
+          <div class="table-row__container">
+            <!-- <div class="table__row">
+              <span>1</span>
+              <span>افزایش اعتبار</span>
+              <span>1.000.000</span>
+              <span>123126411</span>
+              <span>1399/08/12 ساعت 12:23</span>
+            </div>
+            <div class="table__row">
+              <span>1</span>
+              <span>افزایش اعتبار</span>
+              <span>1.000.000</span>
+              <span>123126411</span>
+              <span>1399/08/12 ساعت 12:23</span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
